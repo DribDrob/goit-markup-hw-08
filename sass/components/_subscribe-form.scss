@@ -1,0 +1,34 @@
+.subscribe-form {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.subscribe-form__input {
+   width: 358px;
+   height: 50px;
+   padding: 15px 16px;
+   margin-right: 12px;
+
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   box-sizing: border-box;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   border-radius: 4px;
+   color: var(--secondary-title-color);
+   background-color: transparent;
+   &::placeholder {
+      color: var(--third-link-color);
+   }
+}
+
+.subscribe-btn {
+   padding: 10px 62px 10px 29px;
+   position: relative;
+}
+.subscribe-btn__icon {
+   position: absolute;
+   top: 50%;
+   right: 28px;
+   transform: translateY(-50%);
+   height: 24px;
+   fill: var(--secondary-title-color);
+}
