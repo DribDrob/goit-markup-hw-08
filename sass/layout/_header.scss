@@ -1,11 +1,10 @@
 .header {
    border-bottom: 1px solid var(--border-color);
-   .container {
-      display: flex;
-      align-items: center;
-   }
 }
 
+.accent {
+   color: var(--accent-color);
+}
 .nav,
 .nav-list,
 .contact-list__link {

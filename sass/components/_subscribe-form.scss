@@ -19,16 +19,3 @@
       color: var(--third-link-color);
    }
 }
-
-.subscribe-btn {
-   padding: 10px 62px 10px 29px;
-   position: relative;
-}
-.subscribe-btn__icon {
-   position: absolute;
-   top: 50%;
-   right: 28px;
-   transform: translateY(-50%);
-   height: 24px;
-   fill: var(--secondary-title-color);
-}
