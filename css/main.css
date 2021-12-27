@@ -881,7 +881,12 @@ img {
 }
 
 .advantage-list__wrap {
-  padding: 25px 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
   margin-bottom: 30px;
   background: var(--team-bgr-color);
   border-radius: 4px;
@@ -901,6 +906,7 @@ img {
 
 .advantage-list__icon {
   display: block;
+  text-align: center;
 }
 
 .advantage-list__title {
