@@ -21,8 +21,7 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   width: 450px;
-   // min-height: 581px;
+   width: 96%;
    padding: 40px;
    text-align: center;
    transform: translate(-50%, -50%) scale(1);
@@ -46,6 +45,10 @@
          line-height: 1.15;
       }
    }
+   @media screen and (min-width: 480px) {
+      width: 450px;
+   }
+
    @media screen and (min-width: 1200px) {
       width: 528px;
    }
@@ -195,7 +198,9 @@
       fill: var(--secondary-title-color);
    }
 }
-.policy-form__checkbox:checked + .policy-form__label span {
+.policy-form__checkbox:checked
+   + .policy-form__label
+   .policy-form__checkbox-custom {
    background-color: var(--accent-color);
    border: none;
 }

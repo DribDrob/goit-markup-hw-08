@@ -15,11 +15,11 @@
    }
 }
 .wrap--top {
+   margin-bottom: 60px;
    @media screen and (min-width: 768px) {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      margin-bottom: 60px;
    }
    @media screen and (min-width: 1200px) {
       margin-bottom: 0;
@@ -50,9 +50,7 @@
    color: var(--secondary-title-color);
 }
 .wrap--centre {
-   margin-bottom: 60px;
    @media screen and (min-width: 1200px) {
-      margin-bottom: 0;
       text-align: left;
    }
 }
